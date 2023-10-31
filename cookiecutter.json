@@ -4,14 +4,13 @@
     "author": "Alquimodelia",
 
     "project_name": "Project name",
-    "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+    "module_name": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
     "project_desc": "Describe the project.",
-    "project_website": "https://github.com/alquimodelia/{{cookiecutter.project_slug}}",
+    "project_website": "https://github.com/alquimodelia/{{cookiecutter.project_name}}",
     "version":"0.0.1",
+    "keywords": "Keywords for your project (comma separated)",
 
-    "module_name": "{{cookiecutter.project_slug}}",
-
-    "git_remote": "https://github.com/alquimodelia/{{cookiecutter.project_slug}}",
+    "git_remote": "https://github.com/alquimodelia/{{cookiecutter.project_name}}",
     "_extensions": ["jinja2_time.TimeExtension"],
     "python_version":"3.8",
     "poetry_version":"1.5.0"
