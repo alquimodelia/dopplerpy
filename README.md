@@ -13,7 +13,7 @@ Ensure you have Python installed on your system. If you don't have Python instal
 **2. Cookiecutter:**
 
 ```bash
-pip install cookiecutter jinja2_time
+pip install cookiecutter jinja2_time virtualenvwrapper
 ```
 
 ## Usage
