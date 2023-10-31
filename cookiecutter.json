@@ -10,7 +10,6 @@
     "version":"0.0.1",
 
     "module_name": "{{cookiecutter.project_slug}}",
-    "base_name": "base",
 
     "git_remote": "https://github.com/alquimodelia/{{cookiecutter.project_slug}}",
     "_extensions": ["jinja2_time.TimeExtension"],
