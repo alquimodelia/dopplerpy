@@ -8,7 +8,7 @@ license = "LICENSE"
 homepage = "https://github.com/alquimodelia/{{cookiecutter.project_name}}"
 repository = "{{cookiecutter.git_remote}}"
 documentation = "https://alquimodelia.github.io/{{cookiecutter.project_name}}/"
-keywords = ["{{cookiecutter.keywords}}"]
+keywords = ["{{ cookiecutter.keywords.split(',') }}"]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/alquimodelia/{{cookiecutter.project_name}}/issues"
