@@ -1,6 +1,6 @@
 # {{cookiecutter.project_slug }}
 
-{{cookiecutter.d }} is a Python package that provides a Keras-based set of tools to enhance Alquimodelia.
+{{cookiecutter.project_desc }}
 
 [![Python](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)](https://www.python.org/)
 [![Keras](https://img.shields.io/badge/keras-2.4.3-blue)](https://keras.io/)
