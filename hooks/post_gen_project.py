@@ -1,4 +1,5 @@
 import subprocess
+import os
 
 # setup venv
 new_dir = "{{ cookiecutter.project_name }}"
