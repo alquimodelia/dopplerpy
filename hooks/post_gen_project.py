@@ -4,7 +4,7 @@ import os
 # setup venv
 new_dir = "{{ cookiecutter.project_name }}"
 os.chdir(new_dir)
-
+print(subprocess.call(['which', 'virtualenvwrapper']))
 # Check if virtualenvwrapper is installed
 if subprocess.call(['which', 'virtualenvwrapper']) == 0:
    # virtualenvwrapper is installed, create a new virtual environment
