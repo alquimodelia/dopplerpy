@@ -29,15 +29,6 @@ sphinx = "*"
 [tool.poetry.group.dev]
 optional = true
 
-[tool.poetry.group.docs]
-optional = true
-
-[tool.poetry.group.docs.dependencies]
-sphinx = "*"
-
-[tool.poetry.group.dev]
-optional = true
-
 [tool.poetry.group.dev.dependencies]
 poetry = "*"
 ruff = "*"
